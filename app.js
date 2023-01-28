@@ -1,13 +1,10 @@
-require('express');
-
+const express = require("express");
 
 const app = express();
 
-app.get('/', (req, res)=>{
-    console.log("Fatma");
-})
-app.delete('/:id', (req, res)=>{
-    console.log("delete - Fatma");
-})
-
+app.get("/", (req, res) => {
+  console.log("I wanna sleepz");
+});
 app.listen(3000);
+console.log("Yahia");
+console.log("Bassel");
