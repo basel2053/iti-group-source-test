@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-	console.log('i wanna sleep');
+	console.log('I wanna sleepz');
 });
 
 app.listen(3000);
