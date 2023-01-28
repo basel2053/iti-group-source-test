@@ -1,7 +1,10 @@
-const require('express');
+require('express');
 
 
 const app = express();
 
+app.get('/', (req, res)=>{
+    console.log("Fatma");
+})
 
 app.listen(3000);
